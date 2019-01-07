@@ -12,6 +12,7 @@ int main()
 
     for(i=0;i<9;i=i+1)
     {
+        printf("hihi!\n");
         chengcheng(i,i+5);
     }
 

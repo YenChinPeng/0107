@@ -71,6 +71,7 @@ int main()
     printf("printf    %p\n",&printf);
     printf("ST()        %p\n",&ST);
     printf("standard   %p\n",&standard);
+    printf("THANK FOR YOUR WATCHING\n");
 }
 
 int ST(int standard)

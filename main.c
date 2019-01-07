@@ -3,6 +3,7 @@
 #include <time.h>
 int ST(int standard);
  void chengcheng(int a,int b);
+
 int main()
 {
   srand(time(0));
@@ -74,6 +75,7 @@ int main()
     printf("THANK FOR YOUR WATCHING\n");
 }
 
+
 int ST(int standard)
  {
     standard=standard/10;
@@ -83,7 +85,14 @@ int ST(int standard)
 
  void chengcheng(int a,int b)
  {
-     int z;
+     int z,i;
      z=a*a+2*a*b+b*b;
      printf("(%d+%d)(%d+%d)=%d\n\n",a,b,a,b,z);
+     for(i=0;i<9;i=i+1)
+     {
+         printf("%d%d\n\n",i,i);
+     }
  }
+
+
+

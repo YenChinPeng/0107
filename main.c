@@ -62,9 +62,4 @@ int main()
     printf("standard   %p\n",&standard);
 }
 
-int ST(int standard)
- {
-    standard=standard/10;
-    printf("            %d\n",standard);
-  return 0;
- }
+

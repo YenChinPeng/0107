@@ -96,6 +96,9 @@ int ST(int standard)
     {
          printf("     %d", C[i]);
     }
+
+
+
  }
 
 

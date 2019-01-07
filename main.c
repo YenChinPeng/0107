@@ -39,6 +39,7 @@ int main()
     standard+=C[i];
     }
     standard=ST(standard);
+    printf("\n");
     printf("*********************\n");
     for(i=1;i<=10;i++)
     {
@@ -56,6 +57,7 @@ int main()
     }
     printf("\n");
     printf("*********************\n");
+    printf("\n");
     printf("main()      %p\n",&main);
     printf("printf    %p\n",&printf);
     printf("ST()        %p\n",&ST);

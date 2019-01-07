@@ -29,28 +29,31 @@ int main()
 
     printf("   學生                           成績                                             總和平均\n");
     printf("    A");
+
+    student_score_A(A);
     for(i=1;i<=10;i++)
     {
-    printf("     %d",A[i]);
     standard+=A[i];
     }
    standard=ST(standard);
     printf("    B");
+        student_score_B(B);
     for(i=1;i<=10;i++)
     {
-    printf("     %d",B[i]);
-    standard+=B[i];
+     standard+=B[i];
     }
     standard=ST(standard);
     printf("    C");
+
+    student_score_C(C);
     for(i=1;i<=10;i++)
     {
-    printf("     %d",C[i]);
     standard+=C[i];
     }
     standard=ST(standard);
     printf("\n");
     printf("*********************\n");
+
     for(i=1;i<=10;i++)
     {
     printf("   %p",&A[i]);
@@ -81,7 +84,26 @@ int ST(int standard)
     standard=standard/10;
     printf("            %d\n",standard);
   return 0;
+
  }
+
+ void student_score_A(int A[])
+ {
+     int i;
+      for(i=1;i<=10;i++)
+    {
+         printf("     %d",A[i]);
+    }
+ }
+ void student_score_B(int B[])
+ {
+     int i;
+     for(i=1;i<=10;i++)
+    {
+         printf("     %d",B[i]);
+    }
+ }
+<<<<<<< HEAD
 
  void chengcheng(int a,int b)
  {
@@ -96,3 +118,18 @@ int ST(int standard)
 
 
 
+=======
+ void student_score_C(int C[])
+ {
+     int i;
+     for(i=1;i<=10;i++)
+    {
+         printf("     %d", C[i]);
+    }
+
+
+
+ }
+
+
+>>>>>>> weeeee

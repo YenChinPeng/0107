@@ -81,5 +81,5 @@ int ST(int standard)
  {
      int z;
      z=a*a+2*a*b+b*b;
-     printf("(%d+%d)(%d+%d)=%d\n\n",a,b,z);
+     printf("(%d+%d)(%d+%d)=%d\n\n",a,b,a,b,z);
  }

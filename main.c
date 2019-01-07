@@ -70,6 +70,7 @@ int main()
     }
     printf("\n");
     printf("*********************\n");
+    printf("standard   %p\n",&standard);
     printf("\n");
     printf("main()      %p\n",&main);
     printf("printf    %p\n",&printf);
@@ -103,7 +104,7 @@ int ST(int standard)
          printf("     %d",B[i]);
     }
  }
-<<<<<<< HEAD
+
 
  void chengcheng(int a,int b)
  {
@@ -118,7 +119,7 @@ int ST(int standard)
 
 
 
-=======
+
  void student_score_C(int C[])
  {
      int i;
@@ -132,4 +133,4 @@ int ST(int standard)
  }
 
 
->>>>>>> weeeee
+

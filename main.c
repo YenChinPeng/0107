@@ -2,12 +2,20 @@
 #include <stdlib.h>
 #include <time.h>
 int ST(int standard);
+ void chengcheng(int a,int b);
 int main()
 {
   srand(time(0));
     int i;
     int A[11],B[11],C[11];
     int standard=0;
+
+    for(i=0;i<9;i=i+1)
+    {
+        chengcheng(i,i+5);
+    }
+
+
 
     for(i=1;i<=10;i++)
     {
@@ -67,4 +75,11 @@ int ST(int standard)
     standard=standard/10;
     printf("            %d\n",standard);
   return 0;
+ }
+
+ void chengcheng(int a,int b)
+ {
+     int z;
+     z=a*a+2*a*b+b*b;
+     printf("(%d+%d)(%d+%d)=%d\n\n",a,b,z);
  }
